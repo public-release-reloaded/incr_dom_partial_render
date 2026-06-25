@@ -11,7 +11,7 @@ build: [
   ["dune" "build" "-p" name "-j" jobs]
 ]
 depends: [
-  "ocaml" {>= "5.1.0"}
+  "ocaml" {>= "5.5.0"}
   "core"
   "incr_dom"
   "incr_map"
@@ -21,7 +21,7 @@ depends: [
   "splay_tree"
   "virtual_dom"
   "dune"             {>= "3.17.0"}
-  "js_of_ocaml"      {>= "6.0.0"}
+  "js_of_ocaml" {>= "6.3.0"}
   "js_of_ocaml-ppx"  {>= "6.0.0"}
 ]
 available: arch != "x86_32"
